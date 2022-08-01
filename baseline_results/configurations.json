@@ -1,0 +1,1 @@
+{"TokenTupleFrequenciesClassifier": {"n": 2, "p": 0.25}, "EmbeddingsBoostingClassifier": {"val_size": 0.1, "early_stopping_rounds": 16, "transformer_name": "r2d2/stsb-bertweet-base-v0", "verbose": false}, "seed": 42, "train_size": 190000, "test_size": 10000}

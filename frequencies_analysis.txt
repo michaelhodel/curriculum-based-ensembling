@@ -1,0 +1,94 @@
+Frequencies Analysis on 100% of data:
+
+
+Top 10 Most Frequent Tweets:
+                                                     neg   pos  total  pos_prob
+<user> thanks                                         94  3094   3188  0.970514
+<user> can't wait to see you                        2007    11   2018  0.005451
+thank you very much everyone night night to alll       0  1641   1641  1.000000
+i love our fans ! there all so beautiful ! x <url>     0  1536   1536  1.000000
+girlfriend : babe , whats your favorite positio...     0   621    621  1.000000
+just reading lots of peoples bios you guys are ...     0   582    582  1.000000
+<user> how are you ? please follow sexy <user> x       0   571    571  1.000000
+<user> thanks for the follow                           0   551    551  1.000000
+<user> follow back please ?                            7   536    543  0.987109
+<user> for saying that ' i smell ' you have to ...     0   533    533  1.000000
+
+Top 10 Tweet Lengths:
+              neg     pos   total  pos_prob
+120 - 129  308060   53976  362036  0.149090
+40 - 49    103592  144945  248537  0.583193
+50 - 59    102856  137339  240195  0.571781
+30 - 39     95971  132891  228862  0.580660
+60 - 69     93291  120630  213921  0.563900
+70 - 79     81428  103302  184730  0.559205
+80 - 89     70067   87934  158001  0.556541
+20 - 29     60257   86467  146724  0.589317
+90 - 99     60602   74815  135417  0.552479
+100 - 109   54548   64375  118923  0.541317
+
+Top 10 Assumed Smileys:
+       neg    pos   total  pos_prob
+:(  369080   7239  376319  0.019236
+:)    6660  54462   61122  0.891038
+
+Top 10 Assumed Spam:
+         neg  pos   total  pos_prob
+spam  269487  158  269645  0.000586
+
+Top 10 Most Negative Common Tokens:
+              neg    pos   total  pos_prob
+paperback   35618     10   35628  0.000281
+frame       86014     99   86113  0.001150
+wide        22868    336   23204  0.014480
+pack        27103    656   27759  0.023632
+complete    26345    844   27189  0.031042
+(          461658  32436  494094  0.065647
+black       27076   2110   29186  0.072295
+sad         22512   1839   24351  0.075521
+picture     24484   4181   28665  0.145857
+hate        20588   4490   25078  0.179041
+
+Top 10 Most Positive Common Tokens:
+            neg    pos   total  pos_prob
+thank      3082  28717   31799  0.903079
+thanks     6247  48328   54575  0.885534
+happy      6772  29615   36387  0.813890
+birthday   4488  18210   22698  0.802273
+nice       5333  17668   23001  0.768141
+good      22824  67917   90741  0.748471
+haha      14600  42265   56865  0.743252
+<3        14892  39152   54044  0.724447
+love      30902  81218  112120  0.724385
+great      8079  21075   29154  0.722885
+
+Top 10 Most Frequent Hashtags:
+                        neg   pos  total  pos_prob
+#                      6594  3224   9818  0.328376
+#oomf                  1461  2912   4373  0.665904
+#ff                     221  3711   3932  0.943795
+#yougetmajorpointsif     13  2753   2766  0.995300
+#sadtweet              1732    18   1750  0.010286
+#thoughtsduringschool   342  1391   1733  0.802654
+#smartnokialumia        116  1492   1608  0.927861
+#teamfollowback         349  1021   1370  0.745255
+#waystomakemehappy       20  1315   1335  0.985019
+#jobs                  1210    11   1221  0.009009
+
+Special Tokens:
+           neg     pos    total  pos_prob
+<user>  556432  950365  1506797  0.630719
+<url>   359387   82873   442260  0.187385
+
+Top 10 Single-Character Tokens:
+      neg     pos   total  pos_prob
+!  356091  585482  941573  0.621813
+i  514596  421177  935773  0.450085
+.  337752  346338  684090  0.506275
+,  357788  305778  663566  0.460810
+(  461658   32436  494094  0.065647
+a  230719  239644  470363  0.509487
+?  133018  176052  309070  0.569619
+"  129374   99333  228707  0.434324
+-  136086   38366  174452  0.219923
+)   68841   94941  163782  0.579679

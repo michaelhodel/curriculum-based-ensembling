@@ -1,0 +1,88 @@
+{
+    "seed": 42,
+    "default_model_class": "BertweetClassifier",
+    "default_test_size": 10000,
+    "proxy_train_size": 10000,
+    "full_train_size": 2480000,
+    "eval_on_train": false,
+    "default_model_args": {
+        "manual_seed": 69,
+        "num_train_epochs": 1,
+        "train_batch_size": 16,
+        "learning_rate": 2e-5,
+        "dropout": 0.1,
+        "weight_decay": 0.01,
+        "warmup_ratio": 0.1,
+        "scheduler": "linear_schedule_with_warmup",
+        "optimizer": "AdamW",
+        "adam_epsilon": 1e-6,
+        "max_grad_norm": 1.0,
+        "overwrite_output_dir": true,
+        "save_steps": -1,
+        "save_model_every_epoch": false
+    },
+    "exploratory_data_analysis": {
+        "n": 10,
+        "min_token_frequency": 0.01,
+        "data_size": 2499999,
+        "out_path": "frequencies_analysis.txt"
+    },
+    "baselines": {
+        "out_path": "baseline_results",
+        "train_size": 190000,
+        "baseline_models": {
+            "TokenTupleFrequenciesClassifier": {
+                "n": 2,
+                "p": 0.25
+            },
+            "EmbeddingsBoostingClassifier": {
+                "val_size": 0.1,
+		"early_stopping_rounds": 16,
+                "transformer_name": "r2d2/stsb-bertweet-base-v0",
+                "verbose": false
+            }
+        }
+    },
+    "sensitivity_analysis": {
+        "train_size": 190000,
+        "numerical_model_args": [
+            "train_batch_size",
+            "learning_rate",
+            "dropout",
+            "weight_decay",
+            "warmup_ratio"
+        ],
+        "factor": 2.0,
+        "out_path": "sensitivity_analysis_results"
+    },
+    "ensembling_candidate_search": {
+        "subset_curriculum": {
+            "trials_name": "ensembling_candidate_trials",
+            "out_path": "ensembling_search_results"
+        },
+        "variance_benchmark": {
+            "trials_name": "variance_trials",
+            "out_path": "variance_trials_results"
+        },
+        "common": {
+            "model_class_name": "BertweetClassifier",
+            "train_size": 180000,
+            "eval_on_train": false,
+            "n_models_list": [2, 3, 4, 5],
+            "inference_styles": [
+                "pred_mode",
+                "prob_mean_arith",
+                "odds_mean_geom"
+            ],
+            "pct": 0.16
+        }
+    },
+    "full_ensemble": {
+        "out_path": "full_ensemble",
+        "unique_tweets_only": true,
+        "no_spam_tweets": true,
+        "standard_preprocessing": true,
+        "save_models": true,
+        "ensemble_search_path": "ensembling_search_results"
+    }
+}

@@ -1,0 +1,2 @@
+,model 1,model 2,model 3,model 4,model 5,acc,mcc,tp,tn,fp,fn,auroc,auprc
+0,curriculum-reordered-shuffled-20pct,easiest-interleaved-50pct,no-easy-80pct,hardest-interleaved-10pct,hardest-interleaved-25pct,0.9198869942488145,0.8397936976686913,4652,4465,429,365,0.9762301024901114,0.975968377252944

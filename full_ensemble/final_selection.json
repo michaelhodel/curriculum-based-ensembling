@@ -1,0 +1,1 @@
+{"components": ["curriculum-reordered-shuffled-20pct", "easiest-interleaved-50pct", "no-easy-80pct"], "inference_method": "odds_mean_geom", "test_set_accuracy": 0.9223085460599334}

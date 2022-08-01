@@ -1,0 +1,9 @@
+,internal,leaderboard
+curriculum-reordered-shuffled-20pct,0.918777116335385,0.9092
+easiest-interleaved-50pct,0.9184744223589949,0.913
+no-easy-80pct,0.9177681364140854,0.9116
+hardest-interleaved-10pct,0.916658258500656,0.9168
+hardest-interleaved-25pct,0.916557360508526,0.9106
+best-ensemble-3,0.9222076480678034,0.9148
+full-ensemble-5,0.9201896882252044,0.914
+

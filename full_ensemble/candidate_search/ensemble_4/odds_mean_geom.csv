@@ -1,0 +1,6 @@
+,model 1,model 2,model 3,model 4,acc,mcc,tp,tn,fp,fn,auroc,auprc
+0,curriculum-reordered-shuffled-20pct,easiest-interleaved-50pct,no-easy-80pct,hardest-interleaved-10pct,0.920996872162244,0.8420237688797299,4660,4468,426,357,0.9775096099497914,0.9775045528911777
+1,curriculum-reordered-shuffled-20pct,easiest-interleaved-50pct,no-easy-80pct,hardest-interleaved-25pct,0.920895974170114,0.8418022814211022,4654,4473,421,363,0.9775573430393873,0.9775512026156055
+4,easiest-interleaved-50pct,no-easy-80pct,hardest-interleaved-10pct,hardest-interleaved-25pct,0.9202905862173343,0.8406125800515525,4657,4464,430,360,0.9774242646517981,0.977431315012509
+3,curriculum-reordered-shuffled-20pct,no-easy-80pct,hardest-interleaved-10pct,hardest-interleaved-25pct,0.9191807083039047,0.8383720813862651,4646,4464,430,371,0.9773909288720761,0.9773153457778352
+2,curriculum-reordered-shuffled-20pct,easiest-interleaved-50pct,hardest-interleaved-10pct,hardest-interleaved-25pct,0.9190798103117748,0.8381751939709517,4647,4462,432,370,0.9774612659418133,0.9773999638961623
